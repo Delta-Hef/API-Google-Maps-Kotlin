@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.kotlin_1.di.AppContainer
 import com.example.kotlin_1.presentation.map.MaitreCartographe
 import com.example.kotlin_1.presentation.map.Screen
-import com.example.kotlin_1.ui.theme.Kotlin_1Theme  
+import com.example.kotlin_1.ui.theme.Kotlin_1Theme
 
 
 class Main : ComponentActivity() {

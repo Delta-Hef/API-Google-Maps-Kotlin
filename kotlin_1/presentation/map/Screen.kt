@@ -91,12 +91,7 @@ fun Screen(viewModel: MaitreCartographe) {
 
                 isSearchVisible = false
 
-                launch {
-                    snackbarHostState.showSnackbar(
-                        message = "Itinéraire prêt. Go Champion ! 🚀",
-                        duration = SnackbarDuration.Short
-                    )
-                }
+
                 tts?.speak(
                     "Itinéraire trouvé. Distance : ${route.distanceTotale}. Safe to Go  !",
                     TextToSpeech.QUEUE_FLUSH,
